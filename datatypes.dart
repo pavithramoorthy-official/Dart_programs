@@ -28,6 +28,7 @@ void main() {
   print(number);
   print(percentage);
   print(name);
+  print(name.contains("Sita"));
   print(d);
   print(marks);
   print(even_numbers);
