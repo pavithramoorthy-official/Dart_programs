@@ -3,6 +3,7 @@ void main() {
 }
 
 void display(Function x) {
+  print('Display function');
   x();
 }
 
