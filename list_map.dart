@@ -17,4 +17,7 @@ void main() {
 
   Set a = {1, 2, 3, 3};
   print(a); //set will not print duplicate values
+
+  List mylist3 = [10, 20, mylist, 40, 50];
+  print(mylist3);
 }
