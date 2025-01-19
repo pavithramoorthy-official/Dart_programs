@@ -57,14 +57,14 @@ void main() {
   result = a >> b;
   print("a >> b : $result");
 
-  print("Assignment operator\n");
+  print("\nAssignment operator\n");
   var n;
   n ??= 5;
   print("n : $n");
   n ??= 10;
   print("n : $n");
 
-  print("Logical operator\n");
+  print("\nLogical operator\n");
   bool r;
   print("a : $a, b : $b");
   r = a > 10 && a > b;
